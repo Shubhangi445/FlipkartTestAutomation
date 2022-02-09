@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="LogIn"/>
+        <include name="search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.EndTestFlipKartAssignment.tests.AddToCartTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="addToCartFunctionality"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddToCartTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.EditProfileTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="addressEditFunctionality"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.EditProfileTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddToWishlistTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="addToWishListFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddToWishlistTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.SaveForLaterTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="saveForLaterFunctionality"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SaveForLaterTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.SortingTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="sortHighToLowFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="sortLowToHighFunctionality"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SortingTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.RemoveItemTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="removeItemFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.RemoveItemTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.HomePageClickTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="HomePageClickFunctionality"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.HomePageClickTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="addressChangeInCartFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddressChangeCartTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.CoinBalanceTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="BalanceCheckFunctionality"/>
+          <include name="initializeWebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.CoinBalanceTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="removeFromWishlistFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.RemoveFromWishlist -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

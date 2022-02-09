@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="LogIn"/>
+        <include name="search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.EndTestFlipKartAssignment.tests.SortingTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="sortHighToLowFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SortingTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="initializeWebdriver"/>
+          <include name="addressChangeInCartFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddressChangeCartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="488.844" tests="20" errors="0" skipped="1" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\target\test-classes;C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\target\classes;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\shubhangisharma01\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\shubhangisharma01\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\shubhangisharma01\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\shubhangisharma01\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\shubhangisharma01\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\shubhangisharma01\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\shubhangisharma01\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\shubhangisharma01\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\shubhangisharma01\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\SHUBHA~1\AppData\Local\Temp\surefire7861333021116928832\surefirebooter10216067533116187315.jar C:\Users\shubhangisharma01\AppData\Local\Temp\surefire7861333021116928832 2022-02-08T19-06-10_669-jvmRun1 surefire16632632969776788882tmp surefire_04721103609729752612tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\target\test-classes;C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\target\classes;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\shubhangisharma01\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\shubhangisharma01\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\shubhangisharma01\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\shubhangisharma01\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\shubhangisharma01\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\shubhangisharma01\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\shubhangisharma01\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\shubhangisharma01\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\shubhangisharma01\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\shubhangisharma01\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\shubhangisharma01\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\shubhangisharma01\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\shubhangisharma01\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shubhangisharma01"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHUBHA~1\AppData\Local\Temp\surefire7861333021116928832\surefirebooter10216067533116187315.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="shubhangisharma01"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\shubhangisharma01\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHUBHA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/jdk-11//bin/server;C:/jdk-11//bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\jdk-11\\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\jdk-11\bin;C:\.Net &amp; Java Software\apache-maven-3.8.3\bin;C:\Program Files (x86)\dotnet\;C:Program Files (x86)NUnit.org unit-console;C:\Users\shubhangisharma01\AppData\Local\Android\Sdk\platform-tools;C:\Users\shubhangisharma01\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shubhangisharma01\AppData\Local\Microsoft\WindowsApps;C:\Users\shubhangisharma01\AppData\Roaming\npm;C:\Users\shubhangisharma01\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\shubhangisharma01\.dotnet\tools;C:\.Net &amp; Java Software\eclipse-jee-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="validLogInFunctionality" classname="com.EndTestFlipKartAssignment.tests.LoginTest" time="5.465"/>
+  <testcase name="invalidLogInFunctionality" classname="com.EndTestFlipKartAssignment.tests.LoginTest" time="0.613"/>
+  <testcase name="LogOutFunctionality" classname="com.EndTestFlipKartAssignment.tests.LogOutTest" time="8.582"/>
+  <testcase name="orderDisplayFunctionality" classname="com.EndTestFlipKartAssignment.tests.OrderShowTest" time="8.302"/>
+  <testcase name="searchExactKeywordFunctionality" classname="com.EndTestFlipKartAssignment.tests.SearchTest" time="9.666"/>
+  <testcase name="searchRandomKeywordFunctionality" classname="com.EndTestFlipKartAssignment.tests.SearchTest" time="6.601"/>
+  <testcase name="applyFiltersSearchFunctionality" classname="com.EndTestFlipKartAssignment.tests.SearchTest" time="9.577">
+    <failure message="element click intercepted: Element &lt;svg width=&quot;20&quot; height=&quot;20&quot; viewBox=&quot;0 0 17 18&quot; class=&quot;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;...&lt;/svg&gt; is not clickable at point (554, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=98.0.4758.81)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SHUBHANGISHAR01&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0128088f52e95ef6971e54e409ef6ea5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">...</svg> is not clickable at point (554, 28). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: headless chrome=98.0.4758.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHUBHANGISHAR01', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0128088f52e95ef6971e54e409ef6ea5
+	at com.EndTestFlipKartAssignment.tests.SearchTest.applyFiltersSearchFunctionality(SearchTest.java:158)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'applyFiltersSearchFunctionality'
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - Pre-Requisite : 1.Browser should be open with Flipkart URL.
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - TestCaseName : applyFiltersSearchFunctionality
+[INFO ] 2022-02-08 19:07:40.807 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-08 19:07:40.808 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-08 19:07:40.808 [main] BaseTest - ______________________________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 47047
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 08, 2022 7:07:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="removeFiltersFunctionality" classname="com.EndTestFlipKartAssignment.tests.SearchTest" time="16.344"/>
+  <testcase name="searchWithDropdownFunctionality" classname="com.EndTestFlipKartAssignment.tests.SearchTest" time="30.483"/>
+  <testcase name="addToCartFunctionality" classname="com.EndTestFlipKartAssignment.tests.AddToCartTest" time="26.248"/>
+  <testcase name="saveForLaterFunctionality" classname="com.EndTestFlipKartAssignment.tests.SaveForLaterTest" time="10.221">
+    <failure message="element click intercepted: Element is not clickable at point (861, 28)&#10;  (Session info: headless chrome=98.0.4758.81)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SHUBHANGISHAR01&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 435d0f03e8720650b95cba77b4195446" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (861, 28)
+  (Session info: headless chrome=98.0.4758.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHUBHANGISHAR01', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 435d0f03e8720650b95cba77b4195446
+	at com.EndTestFlipKartAssignment.tests.SaveForLaterTest.saveForLaterFunctionality(SaveForLaterTest.java:44)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-02-08 19:09:46.708 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-08 19:09:46.709 [main] BaseTest - Test data for Worksheet Name : 'CartPageTestData' and for Test Case : 'saveForLaterFunctionality'
+[INFO ] 2022-02-08 19:09:46.709 [main] BaseTest - Expected Title : Shopping Cart | Flipkart.com
+[INFO ] 2022-02-08 19:09:46.709 [main] BaseTest - Working : yes
+[INFO ] 2022-02-08 19:09:46.709 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-08 19:09:46.709 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-08 19:09:46.710 [main] BaseTest - Pre-Requisite : 1.Browser should be open with Flipkart URL.
+[INFO ] 2022-02-08 19:09:46.711 [main] BaseTest - TestCaseName : saveForLaterFunctionality
+[INFO ] 2022-02-08 19:09:46.711 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-08 19:09:46.711 [main] BaseTest - ______________________________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 32850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 08, 2022 7:09:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="removeItemFunctionality" classname="com.EndTestFlipKartAssignment.tests.RemoveItemTest" time="11.414">
+    <failure message="element click intercepted: Element is not clickable at point (861, 28)&#10;  (Session info: headless chrome=98.0.4758.81)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SHUBHANGISHAR01&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eabb41a2b5f5c7675c7761612503023e" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (861, 28)
+  (Session info: headless chrome=98.0.4758.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHUBHANGISHAR01', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eabb41a2b5f5c7675c7761612503023e
+	at com.EndTestFlipKartAssignment.tests.RemoveItemTest.removeItemFunctionality(RemoveItemTest.java:45)
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-02-08 19:10:07.957 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-08 19:10:07.958 [main] BaseTest - Test data for Worksheet Name : 'CartPageTestData' and for Test Case : 'removeItemFunctionality'
+[INFO ] 2022-02-08 19:10:07.959 [main] BaseTest - Expected Title : Shopping Cart | Flipkart.com
+[INFO ] 2022-02-08 19:10:07.959 [main] BaseTest - Working : yes
+[INFO ] 2022-02-08 19:10:07.959 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-08 19:10:07.960 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-08 19:10:07.960 [main] BaseTest - Pre-Requisite : 1.Browser should be open with Flipkart URL.
+[INFO ] 2022-02-08 19:10:07.961 [main] BaseTest - TestCaseName : removeItemFunctionality
+[INFO ] 2022-02-08 19:10:07.961 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-08 19:10:07.962 [main] BaseTest - ______________________________________________________________________
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 29963
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 08, 2022 7:10:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addToWishListFunctionality" classname="com.EndTestFlipKartAssignment.tests.AddToWishlistTest" time="17.416"/>
+  <testcase name="removeFromWishlistFunctionality" classname="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist" time="10.443"/>
+  <testcase name="BalanceCheckFunctionality" classname="com.EndTestFlipKartAssignment.tests.CoinBalanceTest" time="14.671"/>
+  <testcase name="addressChangeInCartFunctionality" classname="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest" time="0">
+    <skipped message="Skipping this exception"/>
+    <system-out><![CDATA[[INFO ] 2022-02-08 19:11:42.426 [main] BaseTest - Execution required is no , skipping the test
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 9354
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 08, 2022 7:11:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addressEditFunctionality" classname="com.EndTestFlipKartAssignment.tests.EditProfileTest" time="22.108"/>
+  <testcase name="HomePageClickFunctionality" classname="com.EndTestFlipKartAssignment.tests.HomePageClickTest" time="22.123"/>
+  <testcase name="sortLowToHighFunctionality" classname="com.EndTestFlipKartAssignment.tests.SortingTest" time="34.289"/>
+  <testcase name="sortHighToLowFunctionality" classname="com.EndTestFlipKartAssignment.tests.SortingTest" time="31.193"/>
+</testsuite>

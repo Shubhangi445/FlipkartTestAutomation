@@ -1,0 +1,1198 @@
+# Created at 2022-02-09T00:24:02.395
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-02-09T00:24:03.548
+Unexpected IOException: 6,1,com.EndTestFlipKartAssignment.tests.SearchTest,searchWithDropdownFunctionality(com.EndTestFlipKartAssignment.tests.SearchTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:04.330
+Unexpected IOException with stream: S
+
+# Created at 2022-02-09T00:24:04.331
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.333
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.334
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.335
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.336
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.337
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.337
+Unexpected IOException with stream: g
+
+# Created at 2022-02-09T00:24:04.338
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.339
+Unexpected IOException with stream: C
+
+# Created at 2022-02-09T00:24:04.340
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.340
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.341
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.342
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.343
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.343
+Unexpected IOException with stream: D
+
+# Created at 2022-02-09T00:24:04.344
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.345
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.345
+Unexpected IOException with stream: v
+
+# Created at 2022-02-09T00:24:04.346
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.347
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.347
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.348
+Unexpected IOException with stream: 9
+
+# Created at 2022-02-09T00:24:04.348
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.349
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.350
+Unexpected IOException with stream: 0
+
+# Created at 2022-02-09T00:24:04.350
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.351
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.351
+Unexpected IOException with stream: 7
+
+# Created at 2022-02-09T00:24:04.352
+Unexpected IOException with stream: 5
+
+# Created at 2022-02-09T00:24:04.353
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.354
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.354
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.355
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.355
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.356
+Unexpected IOException with stream: (
+
+# Created at 2022-02-09T00:24:04.357
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.357
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.358
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.358
+Unexpected IOException with stream: 9
+
+# Created at 2022-02-09T00:24:04.358
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.358
+Unexpected IOException with stream: b
+
+# Created at 2022-02-09T00:24:04.359
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.359
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.360
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.360
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.361
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.361
+Unexpected IOException with stream: 0
+
+# Created at 2022-02-09T00:24:04.362
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.362
+Unexpected IOException with stream: 2
+
+# Created at 2022-02-09T00:24:04.362
+Unexpected IOException with stream: 9
+
+# Created at 2022-02-09T00:24:04.363
+Unexpected IOException with stream: b
+
+# Created at 2022-02-09T00:24:04.363
+Unexpected IOException with stream: 9
+
+# Created at 2022-02-09T00:24:04.364
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.365
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.365
+Unexpected IOException with stream: b
+
+# Created at 2022-02-09T00:24:04.366
+Unexpected IOException with stream: b
+
+# Created at 2022-02-09T00:24:04.367
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.367
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.368
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.368
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.369
+Unexpected IOException with stream: 0
+
+# Created at 2022-02-09T00:24:04.369
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.370
+Unexpected IOException with stream: 0
+
+# Created at 2022-02-09T00:24:04.370
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.371
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.371
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.371
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.372
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.373
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.373
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.374
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.375
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.375
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.376
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.376
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.377
+Unexpected IOException with stream: -
+
+# Created at 2022-02-09T00:24:04.377
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.378
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.378
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.379
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.379
+Unexpected IOException with stream: /
+
+# Created at 2022-02-09T00:24:04.380
+Unexpected IOException with stream: b
+
+# Created at 2022-02-09T00:24:04.380
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.380
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.381
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.381
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.382
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.382
+Unexpected IOException with stream: -
+
+# Created at 2022-02-09T00:24:04.383
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.383
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.384
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.384
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.385
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.385
+Unexpected IOException with stream: /
+
+# Created at 2022-02-09T00:24:04.386
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.386
+Unexpected IOException with stream: 7
+
+# Created at 2022-02-09T00:24:04.386
+Unexpected IOException with stream: 5
+
+# Created at 2022-02-09T00:24:04.387
+Unexpected IOException with stream: 8
+
+# Created at 2022-02-09T00:24:04.387
+Unexpected IOException with stream: @
+
+# Created at 2022-02-09T00:24:04.388
+Unexpected IOException with stream: {
+
+# Created at 2022-02-09T00:24:04.388
+Unexpected IOException with stream: #
+
+# Created at 2022-02-09T00:24:04.389
+Unexpected IOException with stream: 4
+
+# Created at 2022-02-09T00:24:04.389
+Unexpected IOException with stream: 1
+
+# Created at 2022-02-09T00:24:04.390
+Unexpected IOException with stream: 5
+
+# Created at 2022-02-09T00:24:04.390
+Unexpected IOException with stream: }
+
+# Created at 2022-02-09T00:24:04.391
+Unexpected IOException with stream: )
+
+# Created at 2022-02-09T00:24:04.391
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.392
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.393
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.393
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.394
+Unexpected IOException with stream: p
+
+# Created at 2022-02-09T00:24:04.394
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.395
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.395
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.396
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.396
+Unexpected IOException with stream: 3
+
+# Created at 2022-02-09T00:24:04.397
+Unexpected IOException with stream: 7
+
+# Created at 2022-02-09T00:24:04.397
+Unexpected IOException with stream: 6
+
+# Created at 2022-02-09T00:24:04.397
+Unexpected IOException with stream: 2
+
+# Created at 2022-02-09T00:24:04.398
+Unexpected IOException with stream: 7
+
+# Created at 2022-02-09T00:24:04.398
+Unexpected IOException with stream: 
+
+# Created at 2022-02-09T00:24:04.398
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-09T00:24:04.399
+Unexpected IOException with stream: O
+
+# Created at 2022-02-09T00:24:04.399
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.399
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.400
+Unexpected IOException with stream: y
+
+# Created at 2022-02-09T00:24:04.400
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.400
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.401
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.401
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.401
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.402
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.402
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.402
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.403
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.403
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.403
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.404
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.404
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.404
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.405
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.405
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.405
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.406
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.406
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.406
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.407
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.407
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.408
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.408
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.408
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.409
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.409
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.409
+Unexpected IOException with stream: w
+
+# Created at 2022-02-09T00:24:04.410
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.410
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.411
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.411
+Unexpected IOException with stream: 
+
+# Created at 2022-02-09T00:24:04.411
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-09T00:24:04.412
+Unexpected IOException with stream: P
+
+# Created at 2022-02-09T00:24:04.412
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.413
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.413
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.414
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.414
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.415
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.415
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.415
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.416
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.416
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.416
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.417
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.417
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.417
+Unexpected IOException with stream: p
+
+# Created at 2022-02-09T00:24:04.418
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.418
+Unexpected IOException with stream: :
+
+# Created at 2022-02-09T00:24:04.419
+Unexpected IOException with stream: /
+
+# Created at 2022-02-09T00:24:04.419
+Unexpected IOException with stream: /
+
+# Created at 2022-02-09T00:24:04.420
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.420
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.421
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.421
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.422
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.422
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.423
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.423
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.424
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.424
+Unexpected IOException with stream: v
+
+# Created at 2022-02-09T00:24:04.425
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.425
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.426
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.426
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.426
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.427
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.428
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.428
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.429
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.430
+Unexpected IOException with stream: u
+
+# Created at 2022-02-09T00:24:04.430
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.431
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.431
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.432
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.432
+Unexpected IOException with stream: g
+
+# Created at 2022-02-09T00:24:04.433
+Unexpected IOException with stream: /
+
+# Created at 2022-02-09T00:24:04.433
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.434
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.434
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.435
+Unexpected IOException with stream: u
+
+# Created at 2022-02-09T00:24:04.435
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.436
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.436
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.437
+Unexpected IOException with stream: y
+
+# Created at 2022-02-09T00:24:04.437
+Unexpected IOException with stream: -
+
+# Created at 2022-02-09T00:24:04.438
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.438
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.439
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.439
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.440
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.440
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.441
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.442
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.442
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.443
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.443
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.444
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.444
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.445
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.446
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.446
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.447
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.447
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.448
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.448
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.449
+Unexpected IOException with stream: u
+
+# Created at 2022-02-09T00:24:04.449
+Unexpected IOException with stream: g
+
+# Created at 2022-02-09T00:24:04.450
+Unexpected IOException with stream: g
+
+# Created at 2022-02-09T00:24:04.451
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.451
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.452
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.453
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.453
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.454
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.454
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.455
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.455
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.456
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.456
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.457
+Unexpected IOException with stream: k
+
+# Created at 2022-02-09T00:24:04.457
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.458
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.458
+Unexpected IOException with stream: p
+
+# Created at 2022-02-09T00:24:04.459
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.459
+Unexpected IOException with stream: n
+
+# Created at 2022-02-09T00:24:04.460
+Unexpected IOException with stream: g
+
+# Created at 2022-02-09T00:24:04.461
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.461
+Unexpected IOException with stream: C
+
+# Created at 2022-02-09T00:24:04.462
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.462
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.462
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.463
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.463
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.464
+Unexpected IOException with stream: D
+
+# Created at 2022-02-09T00:24:04.464
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.465
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.465
+Unexpected IOException with stream: v
+
+# Created at 2022-02-09T00:24:04.465
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.466
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.466
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.466
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.467
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.467
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.467
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.468
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.469
+Unexpected IOException with stream: 
+
+# Created at 2022-02-09T00:24:04.469
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-09T00:24:04.469
+Unexpected IOException with stream: C
+
+# Created at 2022-02-09T00:24:04.470
+Unexpected IOException with stream: h
+
+# Created at 2022-02-09T00:24:04.470
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.471
+Unexpected IOException with stream: o
+
+# Created at 2022-02-09T00:24:04.471
+Unexpected IOException with stream: m
+
+# Created at 2022-02-09T00:24:04.472
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.472
+Unexpected IOException with stream: D
+
+# Created at 2022-02-09T00:24:04.473
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.473
+Unexpected IOException with stream: i
+
+# Created at 2022-02-09T00:24:04.474
+Unexpected IOException with stream: v
+
+# Created at 2022-02-09T00:24:04.474
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.475
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.475
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.476
+Unexpected IOException with stream: w
+
+# Created at 2022-02-09T00:24:04.476
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.477
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.477
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.477
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.478
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.478
+Unexpected IOException with stream: a
+
+# Created at 2022-02-09T00:24:04.478
+Unexpected IOException with stream: r
+
+# Created at 2022-02-09T00:24:04.479
+Unexpected IOException with stream: t
+
+# Created at 2022-02-09T00:24:04.479
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.479
+Unexpected IOException with stream: d
+
+# Created at 2022-02-09T00:24:04.480
+Unexpected IOException with stream:  
+
+# Created at 2022-02-09T00:24:04.480
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.480
+Unexpected IOException with stream: u
+
+# Created at 2022-02-09T00:24:04.481
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.481
+Unexpected IOException with stream: c
+
+# Created at 2022-02-09T00:24:04.482
+Unexpected IOException with stream: e
+
+# Created at 2022-02-09T00:24:04.482
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.483
+Unexpected IOException with stream: s
+
+# Created at 2022-02-09T00:24:04.483
+Unexpected IOException with stream: f
+
+# Created at 2022-02-09T00:24:04.483
+Unexpected IOException with stream: u
+
+# Created at 2022-02-09T00:24:04.484
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.484
+Unexpected IOException with stream: l
+
+# Created at 2022-02-09T00:24:04.485
+Unexpected IOException with stream: y
+
+# Created at 2022-02-09T00:24:04.485
+Unexpected IOException with stream: .
+
+# Created at 2022-02-09T00:24:04.486
+Unexpected IOException with stream: 
+
+# Created at 2022-02-09T00:24:04.486
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-09T00:24:05.559
+Unexpected IOException with stream: Feb 09, 2022 12:24:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-02-09T00:24:07.016
+Unexpected IOException: 8,1,com.EndTestFlipKartAssignment.tests.AddToCartTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.AddToCartTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,AddToCartTest>BaseTest.initializeWebdriver:131 \00BB NoSuchWindow no such window: ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94\000A
+
+
+# Created at 2022-02-09T00:24:07.019
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToCartTest,openUrl(com.EndTestFlipKartAssignment.tests.AddToCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.022
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToCartTest,addToCartFunctionality(com.EndTestFlipKartAssignment.tests.AddToCartTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.023
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToCartTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.AddToCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.024
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToCartTest,closeBrowser(com.EndTestFlipKartAssignment.tests.AddToCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.025
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SaveForLaterTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.SaveForLaterTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.026
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SaveForLaterTest,openUrl(com.EndTestFlipKartAssignment.tests.SaveForLaterTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.027
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SaveForLaterTest,saveForLaterFunctionality(com.EndTestFlipKartAssignment.tests.SaveForLaterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.029
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SaveForLaterTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.SaveForLaterTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.029
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SaveForLaterTest,closeBrowser(com.EndTestFlipKartAssignment.tests.SaveForLaterTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.031
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveItemTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.RemoveItemTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.032
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveItemTest,openUrl(com.EndTestFlipKartAssignment.tests.RemoveItemTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.034
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveItemTest,removeItemFunctionality(com.EndTestFlipKartAssignment.tests.RemoveItemTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.035
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveItemTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.RemoveItemTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.037
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveItemTest,closeBrowser(com.EndTestFlipKartAssignment.tests.RemoveItemTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.039
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToWishlistTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.AddToWishlistTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.040
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToWishlistTest,openUrl(com.EndTestFlipKartAssignment.tests.AddToWishlistTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.042
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToWishlistTest,addToWishListFunctionality(com.EndTestFlipKartAssignment.tests.AddToWishlistTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.043
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToWishlistTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.AddToWishlistTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.044
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddToWishlistTest,closeBrowser(com.EndTestFlipKartAssignment.tests.AddToWishlistTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.046
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveFromWishlist,initializeWebdriver(com.EndTestFlipKartAssignment.tests.RemoveFromWishlist),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.047
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveFromWishlist,openUrl(com.EndTestFlipKartAssignment.tests.RemoveFromWishlist),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.049
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveFromWishlist,removeFromWishlistFunctionality(com.EndTestFlipKartAssignment.tests.RemoveFromWishlist),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.050
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveFromWishlist,attachScreenshot(com.EndTestFlipKartAssignment.tests.RemoveFromWishlist),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.051
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.RemoveFromWishlist,closeBrowser(com.EndTestFlipKartAssignment.tests.RemoveFromWishlist),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.053
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.CoinBalanceTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.CoinBalanceTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.055
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.CoinBalanceTest,openUrl(com.EndTestFlipKartAssignment.tests.CoinBalanceTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.056
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.CoinBalanceTest,BalanceCheckFunctionality(com.EndTestFlipKartAssignment.tests.CoinBalanceTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.058
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.CoinBalanceTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.CoinBalanceTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.059
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.CoinBalanceTest,closeBrowser(com.EndTestFlipKartAssignment.tests.CoinBalanceTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.061
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddressChangeCartTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.AddressChangeCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.062
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddressChangeCartTest,openUrl(com.EndTestFlipKartAssignment.tests.AddressChangeCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.064
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddressChangeCartTest,addressChangeInCartFunctionality(com.EndTestFlipKartAssignment.tests.AddressChangeCartTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.065
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddressChangeCartTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.AddressChangeCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.066
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.AddressChangeCartTest,closeBrowser(com.EndTestFlipKartAssignment.tests.AddressChangeCartTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.068
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.EditProfileTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.EditProfileTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.069
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.EditProfileTest,openUrl(com.EndTestFlipKartAssignment.tests.EditProfileTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.070
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.EditProfileTest,addressEditFunctionality(com.EndTestFlipKartAssignment.tests.EditProfileTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.071
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.EditProfileTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.EditProfileTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.072
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.EditProfileTest,closeBrowser(com.EndTestFlipKartAssignment.tests.EditProfileTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.074
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.HomePageClickTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.HomePageClickTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.075
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.HomePageClickTest,openUrl(com.EndTestFlipKartAssignment.tests.HomePageClickTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.077
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.HomePageClickTest,HomePageClickFunctionality(com.EndTestFlipKartAssignment.tests.HomePageClickTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.079
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.HomePageClickTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.HomePageClickTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.081
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.HomePageClickTest,closeBrowser(com.EndTestFlipKartAssignment.tests.HomePageClickTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.082
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.084
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,openUrl(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.085
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,sortLowToHighFunctionality(com.EndTestFlipKartAssignment.tests.SortingTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.086
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.087
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,closeBrowser(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.088
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,initializeWebdriver(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.089
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,openUrl(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.091
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,sortHighToLowFunctionality(com.EndTestFlipKartAssignment.tests.SortingTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=98.0.4758.81)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SHUBHANGISHAR01'\002C ip: '192.168.1.43'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.81\002C chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606...\002C userDataDir: C:\005CUsers\005CSHUBHA~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:53893}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 40f2e7523038ff995817ff4539fa8d94,null
+
+
+# Created at 2022-02-09T00:24:07.093
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,attachScreenshot(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.094
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.SortingTest,closeBrowser(com.EndTestFlipKartAssignment.tests.SortingTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.096
+Unexpected IOException: 9,1,com.EndTestFlipKartAssignment.tests.LoginTest,endReport(com.EndTestFlipKartAssignment.tests.LoginTest),null,null,null
+
+
+# Created at 2022-02-09T00:24:07.825
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

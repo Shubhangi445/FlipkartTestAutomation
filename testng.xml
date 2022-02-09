@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+			<run>
+				<include name = "LogIn"/> 
+				<include name = "search"/>
+			</run>
+	</groups>
+	<classes>    
+		
+	    <class name="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.LogOutTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.OrderShowTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.SearchTest"/> 
+	    <class name="com.EndTestFlipKartAssignment.tests.AddToCartTest"/>  
+	    <class name="com.EndTestFlipKartAssignment.tests.RemoveItemTest"/> 
+	    <class name="com.EndTestFlipKartAssignment.tests.SaveForLaterTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.AddToWishlistTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.CoinBalanceTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.EditProfileTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.HomePageClickTest"/>
+	    <class name="com.EndTestFlipKartAssignment.tests.SortingTest"/>
+	            
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+com\EndTestFlipKartAssignment\utils\SwitchWindowPage.class
+com\EndTestFlipKartAssignment\utils\ExtractDataExcel.class
+com\EndTestFlipKartAssignment\utils\ScreenShots.class
+com\EndTestFlipKartAssignment\pages\SearchHomePage.class
+com\EndTestFlipKartAssignment\pages\MyAccountPage.class
+com\EndTestFlipKartAssignment\pages\CartPage.class
+com\EndTestFlipKartAssignment\pages\CoinBalancePage.class
+com\EndTestFlipKartAssignment\pages\LoginPage.class
+com\EndTestFlipKartAssignment\pages\WishListPage.class

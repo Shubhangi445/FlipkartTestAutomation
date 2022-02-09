@@ -1,0 +1,220 @@
+[INFO ] 2022-02-09 21:21:42.772 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - Test data for Worksheet Name : 'LogInPageTestData' and for Test Case : 'validEmailLogInFunctionality'
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - UserName : shubhangisharma8000@gmail.com
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL
+[INFO ] 2022-02-09 21:21:42.775 [main] BaseTest - TestCaseName : validEmailLogInFunctionality
+[INFO ] 2022-02-09 21:21:42.776 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:21:42.776 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:21:46.216 [main] BaseTest - Valid Login Functionality is working successfully
+[INFO ] 2022-02-09 21:21:51.623 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:21:51.624 [main] BaseTest - Test data for Worksheet Name : 'LogInPageTestData' and for Test Case : 'validLogInFunctionality'
+[INFO ] 2022-02-09 21:21:51.624 [main] BaseTest - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+[INFO ] 2022-02-09 21:21:51.624 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:21:51.624 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:21:51.624 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:21:51.625 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL
+[INFO ] 2022-02-09 21:21:51.625 [main] BaseTest - TestCaseName : validLogInFunctionality
+[INFO ] 2022-02-09 21:21:51.625 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:21:51.625 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:21:55.165 [main] BaseTest - Valid Login Functionality is working successfully
+[INFO ] 2022-02-09 21:22:00.595 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:00.595 [main] BaseTest - Test data for Worksheet Name : 'LogInPageTestData' and for Test Case : 'invalidLogInFunctionality'
+[INFO ] 2022-02-09 21:22:00.595 [main] BaseTest - Expected Title : Your username or password is incorrect
+[INFO ] 2022-02-09 21:22:00.595 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:22:00.595 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:22:00.596 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:22:00.596 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL
+[INFO ] 2022-02-09 21:22:00.596 [main] BaseTest - TestCaseName : invalidLogInFunctionality
+[INFO ] 2022-02-09 21:22:00.596 [main] BaseTest - Password : 2357ss
+[INFO ] 2022-02-09 21:22:00.596 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:01.533 [main] BaseTest - Invalid Login Functionality is working successfully
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - Test data for Worksheet Name : 'MyAccountTestData' and for Test Case : 'LogOutFunctionality'
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:22:18.307 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:22:18.308 [main] BaseTest - TestCaseName : LogOutFunctionality
+[INFO ] 2022-02-09 21:22:18.308 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:22:18.308 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:22:18.308 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:24.043 [main] BaseTest - Logout Functionality is working successfully
+[INFO ] 2022-02-09 21:22:29.479 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Test data for Worksheet Name : 'MyAccountTestData' and for Test Case : 'orderDisplayFunctionality'
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Expected Title : Flipkart.com: Your Order History
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - TestCaseName : orderDisplayFunctionality
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:22:29.480 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:35.767 [main] BaseTest - Orders Functionality is working successfully
+[INFO ] 2022-02-09 21:22:40.823 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:40.823 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'searchExactKeywordFunctionality'
+[INFO ] 2022-02-09 21:22:40.823 [main] BaseTest - Expected Title : Dell Laptops- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+[INFO ] 2022-02-09 21:22:40.823 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - TestCaseName : searchExactKeywordFunctionality
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:22:40.824 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:46.478 [main] BaseTest - Search Functionality with Exact keyword is working successfully
+[INFO ] 2022-02-09 21:22:54.631 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:22:54.631 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'searchRandomKeywordFunctionality'
+[INFO ] 2022-02-09 21:22:54.631 [main] BaseTest - Expected Title : %- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+[INFO ] 2022-02-09 21:22:54.631 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - TestCaseName : searchRandomKeywordFunctionality
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - SearchText : %
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:22:54.632 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:04.289 [main] BaseTest - Search Functionality with Random keyword is working successfully
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'applyFiltersSearchFunctionality'
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - Expected Title : Dell Laptops- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:23:09.423 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:23:09.424 [main] BaseTest - TestCaseName : applyFiltersSearchFunctionality
+[INFO ] 2022-02-09 21:23:09.424 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:23:09.424 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:23:09.424 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:17.359 [main] BaseTest - Search Functionality with Exact keyword is working successfully
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'removeFiltersFunctionality'
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - Expected Title : Dell Laptops- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - TestCaseName : removeFiltersFunctionality
+[INFO ] 2022-02-09 21:23:25.742 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:23:25.743 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:23:25.743 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:37.028 [main] BaseTest - Clear all filters functionality of searching is working successfully
+[INFO ] 2022-02-09 21:23:45.688 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:23:45.688 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'searchWithDropdownFunctionality'
+[INFO ] 2022-02-09 21:23:45.688 [main] BaseTest - Expected Title : Bags Luggage Bau May 2020 Store Online - Buy Bags Luggage Bau May 2020 Online at Best Price in India | Flipkart.com
+[INFO ] 2022-02-09 21:23:45.688 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - TestCaseName : searchWithDropdownFunctionality
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:23:45.689 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:24:14.564 [main] BaseTest - Dropdown Search Functionality is working successfully
+[INFO ] 2022-02-09 21:24:19.954 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - Test data for Worksheet Name : 'CartPageTestData' and for Test Case : 'addToCartFunctionality'
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - Expected Title : Shopping Cart | Flipkart.com
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - TestCaseName : addToCartFunctionality
+[INFO ] 2022-02-09 21:24:19.955 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:24:19.956 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:24:19.956 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:24:37.047 [main] BaseTest - Add to Cart Functionality is working successfully
+[INFO ] 2022-02-09 21:24:42.093 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:24:42.093 [main] BaseTest - Test data for Worksheet Name : 'CartPageTestData' and for Test Case : 'saveForLaterFunctionality'
+[INFO ] 2022-02-09 21:24:42.093 [main] BaseTest - Expected Title : Shopping Cart | Flipkart.com
+[INFO ] 2022-02-09 21:24:42.093 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - TestCaseName : saveForLaterFunctionality
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:24:42.094 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:24:49.235 [main] BaseTest - Save for Later Functionality is working successfully
+[INFO ] 2022-02-09 21:25:12.065 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:12.065 [main] BaseTest - Test data for Worksheet Name : 'CartPageTestData' and for Test Case : 'removeItemFunctionality'
+[INFO ] 2022-02-09 21:25:12.065 [main] BaseTest - Expected Title : Shopping Cart | Flipkart.com
+[INFO ] 2022-02-09 21:25:12.065 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:25:12.065 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:25:12.066 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:25:12.066 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:25:12.066 [main] BaseTest - TestCaseName : removeItemFunctionality
+[INFO ] 2022-02-09 21:25:12.066 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:25:12.066 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:24.935 [main] BaseTest - Remove Functionality is working successfully
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Test data for Worksheet Name : 'WishlistPageTestData' and for Test Case : 'addToWishListFunctionality'
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Expected Title : Added to your Wishlist
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - TestCaseName : addToWishListFunctionality
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:25:30.168 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:39.159 [main] BaseTest - Add to Wishlist Functionality is working successfully
+[INFO ] 2022-02-09 21:25:44.685 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Test data for Worksheet Name : 'WishlistPageTestData' and for Test Case : 'removeFromWishlistFunctionality'
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Expected Title : Removed from your Wishlist
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - TestCaseName : removeFromWishlistFunctionality
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:25:44.686 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:51.559 [main] BaseTest - Remove from Wishlist Functionality is working successfully
+[INFO ] 2022-02-09 21:25:56.985 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:25:56.985 [main] BaseTest - Test data for Worksheet Name : 'CoinBalanceTestData' and for Test Case : 'BalanceCheckFunctionality'
+[INFO ] 2022-02-09 21:25:56.985 [main] BaseTest - Expected Title : Coins Balance – Check confirmed Flipkart coins for your Account
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - TestCaseName : BalanceCheckFunctionality
+[INFO ] 2022-02-09 21:25:56.986 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:25:56.987 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:26:05.018 [main] BaseTest - Coin Balance Check is working successfully 
+[INFO ] 2022-02-09 21:26:10.187 [main] BaseTest - Execution required is no , skipping the test
+[INFO ] 2022-02-09 21:26:15.581 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:26:15.581 [main] BaseTest - Test data for Worksheet Name : 'MyAccountTestData' and for Test Case : 'addressEditFunctionality'
+[INFO ] 2022-02-09 21:26:15.581 [main] BaseTest - Expected Title : Manage Addresses
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - TestCaseName : addressEditFunctionality
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:26:15.582 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:26:30.119 [main] BaseTest - Address edit Functionality is working successfully
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - Test data for Worksheet Name : 'MyAccountTestData' and for Test Case : 'HomePageClickFunctionality'
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:26:35.389 [main] BaseTest - TestCaseName : HomePageClickFunctionality
+[INFO ] 2022-02-09 21:26:35.390 [main] BaseTest - SearchText : Dell laptops
+[INFO ] 2022-02-09 21:26:35.390 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:26:35.390 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:26:51.329 [main] BaseTest - Home Page option is working successfully
+[INFO ] 2022-02-09 21:27:08.346 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Test data for Worksheet Name : 'SearchHomePageTextData' and for Test Case : 'sortLowToHighFunctionality'
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Expected Title : Bags - Upto 50% to 80% OFF on Bags for Women, Girls and Men Online at Best Prices in India - Flipkart.com
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Working : Yes
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - UserName : 9068805045
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Execution Required : yes
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Pre-Requisite : Browser should be open with Flipkart URL and Logged in
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - TestCaseName : sortLowToHighFunctionality
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - Password : anssd8000
+[INFO ] 2022-02-09 21:27:08.347 [main] BaseTest - ______________________________________________________________________
+[INFO ] 2022-02-09 21:27:40.446 [main] BaseTest - Sorting Low to High Functionality is working successfully
+[INFO ] 2022-02-09 21:27:59.599 [main] BaseTest - Execution required is no , skipping the test

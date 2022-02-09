@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,  2 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest" class="method navigator-link" hash-for-method="addressChangeInCartFunctionality">addressChangeInCartFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SortingTest" class="method navigator-link" hash-for-method="sortHighToLowFunctionality">sortHighToLowFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.CoinBalanceTest" class="method navigator-link" hash-for-method="BalanceCheckFunctionality">BalanceCheckFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.HomePageClickTest" class="method navigator-link" hash-for-method="HomePageClickFunctionality">HomePageClickFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.LogOutTest" class="method navigator-link" hash-for-method="LogOutFunctionality">LogOutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.AddToCartTest" class="method navigator-link" hash-for-method="addToCartFunctionality">addToCartFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.AddToWishlistTest" class="method navigator-link" hash-for-method="addToWishListFunctionality">addToWishListFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.EditProfileTest" class="method navigator-link" hash-for-method="addressEditFunctionality">addressEditFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SearchTest" class="method navigator-link" hash-for-method="applyFiltersSearchFunctionality">applyFiltersSearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLogInFunctionality">invalidLogInFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.OrderShowTest" class="method navigator-link" hash-for-method="orderDisplayFunctionality">orderDisplayFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SearchTest" class="method navigator-link" hash-for-method="removeFiltersFunctionality">removeFiltersFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist" class="method navigator-link" hash-for-method="removeFromWishlistFunctionality">removeFromWishlistFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.RemoveItemTest" class="method navigator-link" hash-for-method="removeItemFunctionality">removeItemFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SaveForLaterTest" class="method navigator-link" hash-for-method="saveForLaterFunctionality">saveForLaterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SearchTest" class="method navigator-link" hash-for-method="searchExactKeywordFunctionality">searchExactKeywordFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SearchTest" class="method navigator-link" hash-for-method="searchRandomKeywordFunctionality">searchRandomKeywordFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SearchTest" class="method navigator-link" hash-for-method="searchWithDropdownFunctionality">searchWithDropdownFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.SortingTest" class="method navigator-link" hash-for-method="sortLowToHighFunctionality">sortLowToHighFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.LoginTest" class="method navigator-link" hash-for-method="validEmailLogInFunctionality">validEmailLogInFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EndTestFlipKartAssignment.tests.LoginTest" class="method navigator-link" hash-for-method="validLogInFunctionality">validLogInFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.SortingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortHighToLowFunctionality">
+                  </a> <!-- sortHighToLowFunctionality -->
+                  <span class="method-name">sortHighToLowFunctionality</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping this exception
+	at com.EndTestFlipKartAssignment.tests.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+	at com.EndTestFlipKartAssignment.tests.SortingTest.sortHighToLowFunctionality(SortingTest.java:102)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.AddressChangeCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressChangeInCartFunctionality">
+                  </a> <!-- addressChangeInCartFunctionality -->
+                  <span class="method-name">addressChangeInCartFunctionality</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping this exception
+	at com.EndTestFlipKartAssignment.tests.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+	at com.EndTestFlipKartAssignment.tests.AddressChangeCartTest.addressChangeInCartFunctionality(AddressChangeCartTest.java:43)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.HomePageClickTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageClickFunctionality">
+                  </a> <!-- HomePageClickFunctionality -->
+                  <span class="method-name">HomePageClickFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartFunctionality">
+                  </a> <!-- addToCartFunctionality -->
+                  <span class="method-name">addToCartFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.SaveForLaterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveForLaterFunctionality">
+                  </a> <!-- saveForLaterFunctionality -->
+                  <span class="method-name">saveForLaterFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.OrderShowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderDisplayFunctionality">
+                  </a> <!-- orderDisplayFunctionality -->
+                  <span class="method-name">orderDisplayFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogInFunctionality">
+                  </a> <!-- invalidLogInFunctionality -->
+                  <span class="method-name">invalidLogInFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validEmailLogInFunctionality">
+                  </a> <!-- validEmailLogInFunctionality -->
+                  <span class="method-name">validEmailLogInFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogInFunctionality">
+                  </a> <!-- validLogInFunctionality -->
+                  <span class="method-name">validLogInFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.RemoveFromWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeFromWishlistFunctionality">
+                  </a> <!-- removeFromWishlistFunctionality -->
+                  <span class="method-name">removeFromWishlistFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.RemoveItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemFunctionality">
+                  </a> <!-- removeItemFunctionality -->
+                  <span class="method-name">removeItemFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.EditProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressEditFunctionality">
+                  </a> <!-- addressEditFunctionality -->
+                  <span class="method-name">addressEditFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.SortingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortLowToHighFunctionality">
+                  </a> <!-- sortLowToHighFunctionality -->
+                  <span class="method-name">sortLowToHighFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyFiltersSearchFunctionality">
+                  </a> <!-- applyFiltersSearchFunctionality -->
+                  <span class="method-name">applyFiltersSearchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeFiltersFunctionality">
+                  </a> <!-- removeFiltersFunctionality -->
+                  <span class="method-name">removeFiltersFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchExactKeywordFunctionality">
+                  </a> <!-- searchExactKeywordFunctionality -->
+                  <span class="method-name">searchExactKeywordFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRandomKeywordFunctionality">
+                  </a> <!-- searchRandomKeywordFunctionality -->
+                  <span class="method-name">searchRandomKeywordFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchWithDropdownFunctionality">
+                  </a> <!-- searchWithDropdownFunctionality -->
+                  <span class="method-name">searchWithDropdownFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.CoinBalanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BalanceCheckFunctionality">
+                  </a> <!-- BalanceCheckFunctionality -->
+                  <span class="method-name">BalanceCheckFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.AddToWishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishListFunctionality">
+                  </a> <!-- addToWishListFunctionality -->
+                  <span class="method-name">addToWishListFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EndTestFlipKartAssignment.tests.LogOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogOutFunctionality">
+                  </a> <!-- LogOutFunctionality -->
+                  <span class="method-name">LogOutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shubhangisharma01\eclipse-workspace\EndTestFlipKartAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;LogIn&quot;/&gt;
+        &lt;include name=&quot;search&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.LogOutTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.OrderShowTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.SearchTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.RemoveItemTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.SaveForLaterTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.AddToWishlistTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.RemoveFromWishlist&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.CoinBalanceTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.AddressChangeCartTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.EditProfileTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.HomePageClickTest&quot;/&gt;
+      &lt;class name=&quot;com.EndTestFlipKartAssignment.tests.SortingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">LogIn</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BalanceCheckFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePageClickFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LogOutFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToCartFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToWishListFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addressChangeInCartFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addressEditFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">applyFiltersSearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">orderDisplayFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeFiltersFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeFromWishlistFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeItemFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">saveForLaterFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchExactKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchRandomKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchWithDropdownFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortHighToLowFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortLowToHighFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validEmailLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">invalid</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">search</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">applyFiltersSearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeFiltersFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchExactKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchRandomKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">valid</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BalanceCheckFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">applyFiltersSearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeFiltersFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchExactKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchRandomKeywordFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validEmailLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validLogInFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sortLowToHighFunctionality')
+data.setCell(0, 2, 'com.EndTestFlipKartAssignment.tests.SortingTest')
+data.setCell(0, 3, 32102);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchWithDropdownFunctionality')
+data.setCell(1, 2, 'com.EndTestFlipKartAssignment.tests.SearchTest')
+data.setCell(1, 3, 28877);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addToCartFunctionality')
+data.setCell(2, 2, 'com.EndTestFlipKartAssignment.tests.AddToCartTest')
+data.setCell(2, 3, 17139);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomePageClickFunctionality')
+data.setCell(3, 2, 'com.EndTestFlipKartAssignment.tests.HomePageClickTest')
+data.setCell(3, 3, 15942);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addressEditFunctionality')
+data.setCell(4, 2, 'com.EndTestFlipKartAssignment.tests.EditProfileTest')
+data.setCell(4, 3, 14541);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'removeFiltersFunctionality')
+data.setCell(5, 2, 'com.EndTestFlipKartAssignment.tests.SearchTest')
+data.setCell(5, 3, 14292);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'removeItemFunctionality')
+data.setCell(6, 2, 'com.EndTestFlipKartAssignment.tests.RemoveItemTest')
+data.setCell(6, 3, 12871);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'applyFiltersSearchFunctionality')
+data.setCell(7, 2, 'com.EndTestFlipKartAssignment.tests.SearchTest')
+data.setCell(7, 3, 10941);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchRandomKeywordFunctionality')
+data.setCell(8, 2, 'com.EndTestFlipKartAssignment.tests.SearchTest')
+data.setCell(8, 3, 9661);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addToWishListFunctionality')
+data.setCell(9, 2, 'com.EndTestFlipKartAssignment.tests.AddToWishlistTest')
+data.setCell(9, 3, 8996);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchExactKeywordFunctionality')
+data.setCell(10, 2, 'com.EndTestFlipKartAssignment.tests.SearchTest')
+data.setCell(10, 3, 8670);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BalanceCheckFunctionality')
+data.setCell(11, 2, 'com.EndTestFlipKartAssignment.tests.CoinBalanceTest')
+data.setCell(11, 3, 8136);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'saveForLaterFunctionality')
+data.setCell(12, 2, 'com.EndTestFlipKartAssignment.tests.SaveForLaterTest')
+data.setCell(12, 3, 7144);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'removeFromWishlistFunctionality')
+data.setCell(13, 2, 'com.EndTestFlipKartAssignment.tests.RemoveFromWishlist')
+data.setCell(13, 3, 6876);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'orderDisplayFunctionality')
+data.setCell(14, 2, 'com.EndTestFlipKartAssignment.tests.OrderShowTest')
+data.setCell(14, 3, 6289);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'LogOutFunctionality')
+data.setCell(15, 2, 'com.EndTestFlipKartAssignment.tests.LogOutTest')
+data.setCell(15, 3, 5765);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validLogInFunctionality')
+data.setCell(16, 2, 'com.EndTestFlipKartAssignment.tests.LoginTest')
+data.setCell(16, 3, 3545);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validEmailLogInFunctionality')
+data.setCell(17, 2, 'com.EndTestFlipKartAssignment.tests.LoginTest')
+data.setCell(17, 3, 3532);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidLogInFunctionality')
+data.setCell(18, 2, 'com.EndTestFlipKartAssignment.tests.LoginTest')
+data.setCell(18, 3, 940);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addressChangeInCartFunctionality')
+data.setCell(19, 2, 'com.EndTestFlipKartAssignment.tests.AddressChangeCartTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'sortHighToLowFunctionality')
+data.setCell(20, 2, 'com.EndTestFlipKartAssignment.tests.SortingTest')
+data.setCell(20, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">26 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.HomePageClickTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.AddToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.SaveForLaterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.OrderShowTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.RemoveItemTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.RemoveFromWishlist</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.EditProfileTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.SortingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.CoinBalanceTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.AddressChangeCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.AddToWishlistTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.EndTestFlipKartAssignment.tests.LogOutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">4423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validEmailLogInFunctionality</span>
+                <span class="method-start">5446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=validEmailLogInFunctionality status=SUCCESS method=LoginTest.validEmailLogInFunctio...)</span>
+                <span class="method-start">8981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=validEmailLogInFunctionality status=SUCCESS method=LoginTest.validEmailLogInFunctio...)</span>
+                <span class="method-start">8982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">9595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">13226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLogInFunctionality</span>
+                <span class="method-start">14382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=validLogInFunctionality status=SUCCESS method=LoginTest.validLogInFunctionality()[p...)</span>
+                <span class="method-start">17929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=validLogInFunctionality status=SUCCESS method=LoginTest.validLogInFunctionality()[p...)</span>
+                <span class="method-start">17929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">18594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">22354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLogInFunctionality</span>
+                <span class="method-start">23354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=invalidLogInFunctionality status=SUCCESS method=LoginTest.invalidLogInFunctionality...)</span>
+                <span class="method-start">24295 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=invalidLogInFunctionality status=SUCCESS method=LoginTest.invalidLogInFunctionality...)</span>
+                <span class="method-start">24296 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.LogOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">24897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">39737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogOutFunctionality</span>
+                <span class="method-start">41040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=LogOutFunctionality status=SUCCESS method=LogOutTest.LogOutFunctionality()[pri:2, i...)</span>
+                <span class="method-start">46806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=LogOutFunctionality status=SUCCESS method=LogOutTest.LogOutFunctionality()[pri:2, i...)</span>
+                <span class="method-start">46806 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.OrderShowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">47424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">51207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderDisplayFunctionality</span>
+                <span class="method-start">52239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=orderDisplayFunctionality status=SUCCESS method=OrderShowTest.orderDisplayFunctiona...)</span>
+                <span class="method-start">58529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=orderDisplayFunctionality status=SUCCESS method=OrderShowTest.orderDisplayFunctiona...)</span>
+                <span class="method-start">58529 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">59131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">62518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchExactKeywordFunctionality</span>
+                <span class="method-start">63569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=searchExactKeywordFunctionality status=SUCCESS method=SearchTest.searchExactKeyword...)</span>
+                <span class="method-start">72242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=searchExactKeywordFunctionality status=SUCCESS method=SearchTest.searchExactKeyword...)</span>
+                <span class="method-start">72242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">72861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">76372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchRandomKeywordFunctionality</span>
+                <span class="method-start">77390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=searchRandomKeywordFunctionality status=SUCCESS method=SearchTest.searchRandomKeywo...)</span>
+                <span class="method-start">87052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=searchRandomKeywordFunctionality status=SUCCESS method=SearchTest.searchRandomKeywo...)</span>
+                <span class="method-start">87052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">87669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">91108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">applyFiltersSearchFunctionality</span>
+                <span class="method-start">92181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=applyFiltersSearchFunctionality status=SUCCESS method=SearchTest.applyFiltersSearch...)</span>
+                <span class="method-start">103125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=applyFiltersSearchFunctionality status=SUCCESS method=SearchTest.applyFiltersSearch...)</span>
+                <span class="method-start">103126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">103741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">107470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeFiltersFunctionality</span>
+                <span class="method-start">108501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=removeFiltersFunctionality status=SUCCESS method=SearchTest.removeFiltersFunctional...)</span>
+                <span class="method-start">122794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=removeFiltersFunctionality status=SUCCESS method=SearchTest.removeFiltersFunctional...)</span>
+                <span class="method-start">122794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">123418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">127240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchWithDropdownFunctionality</span>
+                <span class="method-start">128448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=searchWithDropdownFunctionality status=SUCCESS method=SearchTest.searchWithDropdown...)</span>
+                <span class="method-start">157327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=searchWithDropdownFunctionality status=SUCCESS method=SearchTest.searchWithDropdown...)</span>
+                <span class="method-start">157327 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">157948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">161561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCartFunctionality</span>
+                <span class="method-start">162686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=addToCartFunctionality status=SUCCESS method=AddToCartTest.addToCartFunctionality()...)</span>
+                <span class="method-start">179827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addToCartFunctionality status=SUCCESS method=AddToCartTest.addToCartFunctionality()...)</span>
+                <span class="method-start">179827 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.SaveForLaterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">180460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">183865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">saveForLaterFunctionality</span>
+                <span class="method-start">184852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=saveForLaterFunctionality status=SUCCESS method=SaveForLaterTest.saveForLaterFuncti...)</span>
+                <span class="method-start">191997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=saveForLaterFunctionality status=SUCCESS method=SaveForLaterTest.saveForLaterFuncti...)</span>
+                <span class="method-start">191997 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.RemoveItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">192601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">207750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemFunctionality</span>
+                <span class="method-start">214825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=removeItemFunctionality status=SUCCESS method=RemoveItemTest.removeItemFunctionalit...)</span>
+                <span class="method-start">227696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=removeItemFunctionality status=SUCCESS method=RemoveItemTest.removeItemFunctionalit...)</span>
+                <span class="method-start">227696 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.AddToWishlistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">228316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">231861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToWishListFunctionality</span>
+                <span class="method-start">232925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=addToWishListFunctionality status=SUCCESS method=AddToWishlistTest.addToWishListFun...)</span>
+                <span class="method-start">241921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addToWishListFunctionality status=SUCCESS method=AddToWishlistTest.addToWishListFun...)</span>
+                <span class="method-start">241921 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.RemoveFromWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">242544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">246018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeFromWishlistFunctionality</span>
+                <span class="method-start">247445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=removeFromWishlistFunctionality status=SUCCESS method=RemoveFromWishlist.removeFrom...)</span>
+                <span class="method-start">254321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=removeFromWishlistFunctionality status=SUCCESS method=RemoveFromWishlist.removeFrom...)</span>
+                <span class="method-start">254321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.CoinBalanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">254925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">258541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BalanceCheckFunctionality</span>
+                <span class="method-start">259704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=BalanceCheckFunctionality status=SUCCESS method=CoinBalanceTest.BalanceCheckFunctio...)</span>
+                <span class="method-start">267841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=BalanceCheckFunctionality status=SUCCESS method=CoinBalanceTest.BalanceCheckFunctio...)</span>
+                <span class="method-start">267842 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.AddressChangeCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">268447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">271915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressChangeInCartFunctionality</span>
+                <span class="method-start">272947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=addressChangeInCartFunctionality status=SKIP method=AddressChangeCartTest.addressCh...)</span>
+                <span class="method-start">272949 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addressChangeInCartFunctionality status=SKIP method=AddressChangeCartTest.addressCh...)</span>
+                <span class="method-start">272949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.EditProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">273555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">277337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressEditFunctionality</span>
+                <span class="method-start">278340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=addressEditFunctionality status=SUCCESS method=EditProfileTest.addressEditFunctiona...)</span>
+                <span class="method-start">292882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addressEditFunctionality status=SUCCESS method=EditProfileTest.addressEditFunctiona...)</span>
+                <span class="method-start">292882 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.HomePageClickTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">293503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">297063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageClickFunctionality</span>
+                <span class="method-start">298148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=HomePageClickFunctionality status=SUCCESS method=HomePageClickTest.HomePageClickFun...)</span>
+                <span class="method-start">314091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=HomePageClickFunctionality status=SUCCESS method=HomePageClickTest.HomePageClickFun...)</span>
+                <span class="method-start">314091 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.SortingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">314693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">318743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortLowToHighFunctionality</span>
+                <span class="method-start">331106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=sortLowToHighFunctionality status=SUCCESS method=SortingTest.sortLowToHighFunctiona...)</span>
+                <span class="method-start">363209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=sortLowToHighFunctionality status=SUCCESS method=SortingTest.sortLowToHighFunctiona...)</span>
+                <span class="method-start">363209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeWebdriver</span>
+                <span class="method-start">363824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">370044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortHighToLowFunctionality</span>
+                <span class="method-start">382359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=sortHighToLowFunctionality status=SKIP method=SortingTest.sortHighToLowFunctionalit...)</span>
+                <span class="method-start">382361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=sortHighToLowFunctionality status=SKIP method=SortingTest.sortHighToLowFunctionalit...)</span>
+                <span class="method-start">382361 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EndTestFlipKartAssignment.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">382955 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

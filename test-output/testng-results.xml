@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="26" total="47" passed="19" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T15:51:37Z" name="Suite" finished-at="2022-02-09T15:58:00Z" duration-ms="383235">
+    <groups>
+      <group name="valid">
+        <method signature="CoinBalanceTest.BalanceCheckFunctionality()[pri:13, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" name="BalanceCheckFunctionality" class="com.EndTestFlipKartAssignment.tests.CoinBalanceTest"/>
+        <method signature="LoginTest.validEmailLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="validEmailLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+        <method signature="LoginTest.validLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="validLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+        <method signature="SearchTest.applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="applyFiltersSearchFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="removeFiltersFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchExactKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchRandomKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+      </group> <!-- valid -->
+      <group name="search">
+        <method signature="SearchTest.applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="applyFiltersSearchFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="removeFiltersFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchExactKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchRandomKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+      </group> <!-- search -->
+      <group name="invalid">
+        <method signature="LoginTest.invalidLogInFunctionality()[pri:1, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="invalidLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+      </group> <!-- invalid -->
+      <group name="LogIn">
+        <method signature="AddToCartTest.addToCartFunctionality()[pri:8, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" name="addToCartFunctionality" class="com.EndTestFlipKartAssignment.tests.AddToCartTest"/>
+        <method signature="AddToWishlistTest.addToWishListFunctionality()[pri:11, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" name="addToWishListFunctionality" class="com.EndTestFlipKartAssignment.tests.AddToWishlistTest"/>
+        <method signature="AddressChangeCartTest.addressChangeInCartFunctionality()[pri:14, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" name="addressChangeInCartFunctionality" class="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest"/>
+        <method signature="CoinBalanceTest.BalanceCheckFunctionality()[pri:13, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" name="BalanceCheckFunctionality" class="com.EndTestFlipKartAssignment.tests.CoinBalanceTest"/>
+        <method signature="EditProfileTest.addressEditFunctionality()[pri:15, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" name="addressEditFunctionality" class="com.EndTestFlipKartAssignment.tests.EditProfileTest"/>
+        <method signature="HomePageClickTest.HomePageClickFunctionality()[pri:16, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" name="HomePageClickFunctionality" class="com.EndTestFlipKartAssignment.tests.HomePageClickTest"/>
+        <method signature="LogOutTest.LogOutFunctionality()[pri:2, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" name="LogOutFunctionality" class="com.EndTestFlipKartAssignment.tests.LogOutTest"/>
+        <method signature="LoginTest.invalidLogInFunctionality()[pri:1, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="invalidLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+        <method signature="LoginTest.validEmailLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="validEmailLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+        <method signature="LoginTest.validLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" name="validLogInFunctionality" class="com.EndTestFlipKartAssignment.tests.LoginTest"/>
+        <method signature="OrderShowTest.orderDisplayFunctionality()[pri:3, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" name="orderDisplayFunctionality" class="com.EndTestFlipKartAssignment.tests.OrderShowTest"/>
+        <method signature="RemoveFromWishlist.removeFromWishlistFunctionality()[pri:12, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" name="removeFromWishlistFunctionality" class="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist"/>
+        <method signature="RemoveItemTest.removeItemFunctionality()[pri:10, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" name="removeItemFunctionality" class="com.EndTestFlipKartAssignment.tests.RemoveItemTest"/>
+        <method signature="SaveForLaterTest.saveForLaterFunctionality()[pri:9, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" name="saveForLaterFunctionality" class="com.EndTestFlipKartAssignment.tests.SaveForLaterTest"/>
+        <method signature="SearchTest.applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="applyFiltersSearchFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="removeFiltersFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchExactKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchRandomKeywordFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SearchTest.searchWithDropdownFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" name="searchWithDropdownFunctionality" class="com.EndTestFlipKartAssignment.tests.SearchTest"/>
+        <method signature="SortingTest.sortHighToLowFunctionality()[pri:18, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" name="sortHighToLowFunctionality" class="com.EndTestFlipKartAssignment.tests.SortingTest"/>
+        <method signature="SortingTest.sortLowToHighFunctionality()[pri:17, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" name="sortLowToHighFunctionality" class="com.EndTestFlipKartAssignment.tests.SortingTest"/>
+      </group> <!-- LogIn -->
+    </groups>
+    <test started-at="2022-02-09T15:51:37Z" name="Test" finished-at="2022-02-09T15:58:00Z" duration-ms="383235">
+      <class name="com.EndTestFlipKartAssignment.tests.LoginTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:37Z" name="setExtent" finished-at="2022-02-09T15:51:37Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:37Z" name="initializeWebdriver" finished-at="2022-02-09T15:51:41Z" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:41Z" name="openUrl" finished-at="2022-02-09T15:51:42Z" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="validEmailLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:42Z" name="validEmailLogInFunctionality" finished-at="2022-02-09T15:51:46Z" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailLogInFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:46Z" name="attachScreenshot" finished-at="2022-02-09T15:51:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validEmailLogInFunctionality status=SUCCESS method=LoginTest.validEmailLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:46Z" name="closeBrowser" finished-at="2022-02-09T15:51:46Z" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validEmailLogInFunctionality status=SUCCESS method=LoginTest.validEmailLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:46Z" name="initializeWebdriver" finished-at="2022-02-09T15:51:50Z" duration-ms="3631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:50Z" name="openUrl" finished-at="2022-02-09T15:51:51Z" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="validLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:51Z" name="validLogInFunctionality" finished-at="2022-02-09T15:51:55Z" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogInFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:55Z" name="closeBrowser" finished-at="2022-02-09T15:51:55Z" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogInFunctionality status=SUCCESS method=LoginTest.validLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:55Z" name="attachScreenshot" finished-at="2022-02-09T15:51:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogInFunctionality status=SUCCESS method=LoginTest.validLogInFunctionality()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:55Z" name="initializeWebdriver" finished-at="2022-02-09T15:51:59Z" duration-ms="3760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:51:59Z" name="openUrl" finished-at="2022-02-09T15:52:00Z" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="invalidLogInFunctionality()[pri:1, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:52:00Z" name="invalidLogInFunctionality" finished-at="2022-02-09T15:52:01Z" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogInFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:52:01Z" name="attachScreenshot" finished-at="2022-02-09T15:52:01Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogInFunctionality status=SUCCESS method=LoginTest.invalidLogInFunctionality()[pri:1, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:52:01Z" name="closeBrowser" finished-at="2022-02-09T15:52:02Z" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogInFunctionality status=SUCCESS method=LoginTest.invalidLogInFunctionality()[pri:1, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LoginTest@602c4656]" started-at="2022-02-09T15:58:00Z" name="endReport" finished-at="2022-02-09T15:58:00Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.LoginTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddressChangeCartTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" started-at="2022-02-09T15:56:05Z" name="initializeWebdriver" finished-at="2022-02-09T15:56:09Z" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" started-at="2022-02-09T15:56:09Z" name="openUrl" finished-at="2022-02-09T15:56:10Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="addressChangeInCartFunctionality()[pri:14, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" started-at="2022-02-09T15:56:10Z" name="addressChangeInCartFunctionality" finished-at="2022-02-09T15:56:10Z" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.EndTestFlipKartAssignment.tests.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+at com.EndTestFlipKartAssignment.tests.AddressChangeCartTest.addressChangeInCartFunctionality(AddressChangeCartTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressChangeInCartFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" started-at="2022-02-09T15:56:10Z" name="closeBrowser" finished-at="2022-02-09T15:56:10Z" duration-ms="606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addressChangeInCartFunctionality status=SKIP method=AddressChangeCartTest.addressChangeInCartFunctionality()[pri:14, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c]" started-at="2022-02-09T15:56:10Z" name="attachScreenshot" finished-at="2022-02-09T15:56:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addressChangeInCartFunctionality status=SKIP method=AddressChangeCartTest.addressChangeInCartFunctionality()[pri:14, instance:com.EndTestFlipKartAssignment.tests.AddressChangeCartTest@408a247c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddressChangeCartTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.OrderShowTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" started-at="2022-02-09T15:52:24Z" name="initializeWebdriver" finished-at="2022-02-09T15:52:28Z" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" started-at="2022-02-09T15:52:28Z" name="openUrl" finished-at="2022-02-09T15:52:29Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="orderDisplayFunctionality()[pri:3, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" started-at="2022-02-09T15:52:29Z" name="orderDisplayFunctionality" finished-at="2022-02-09T15:52:35Z" duration-ms="6289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderDisplayFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" started-at="2022-02-09T15:52:35Z" name="attachScreenshot" finished-at="2022-02-09T15:52:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderDisplayFunctionality status=SUCCESS method=OrderShowTest.orderDisplayFunctionality()[pri:3, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1]" started-at="2022-02-09T15:52:35Z" name="closeBrowser" finished-at="2022-02-09T15:52:36Z" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderDisplayFunctionality status=SUCCESS method=OrderShowTest.orderDisplayFunctionality()[pri:3, instance:com.EndTestFlipKartAssignment.tests.OrderShowTest@705202d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.OrderShowTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.SortingTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:56:51Z" name="initializeWebdriver" finished-at="2022-02-09T15:56:55Z" duration-ms="4050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:56:55Z" name="openUrl" finished-at="2022-02-09T15:57:08Z" duration-ms="12363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="sortLowToHighFunctionality()[pri:17, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:08Z" name="sortLowToHighFunctionality" finished-at="2022-02-09T15:57:40Z" duration-ms="32102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortLowToHighFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:40Z" name="closeBrowser" finished-at="2022-02-09T15:57:41Z" duration-ms="614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortLowToHighFunctionality status=SUCCESS method=SortingTest.sortLowToHighFunctionality()[pri:17, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:40Z" name="attachScreenshot" finished-at="2022-02-09T15:57:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortLowToHighFunctionality status=SUCCESS method=SortingTest.sortLowToHighFunctionality()[pri:17, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:41Z" name="initializeWebdriver" finished-at="2022-02-09T15:57:47Z" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:47Z" name="openUrl" finished-at="2022-02-09T15:57:59Z" duration-ms="12315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="sortHighToLowFunctionality()[pri:18, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:59Z" name="sortHighToLowFunctionality" finished-at="2022-02-09T15:57:59Z" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.EndTestFlipKartAssignment.tests.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+at com.EndTestFlipKartAssignment.tests.SortingTest.sortHighToLowFunctionality(SortingTest.java:102)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHighToLowFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:59Z" name="closeBrowser" finished-at="2022-02-09T15:58:00Z" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortHighToLowFunctionality status=SKIP method=SortingTest.sortHighToLowFunctionality()[pri:18, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4]" started-at="2022-02-09T15:57:59Z" name="attachScreenshot" finished-at="2022-02-09T15:57:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortHighToLowFunctionality status=SKIP method=SortingTest.sortHighToLowFunctionality()[pri:18, instance:com.EndTestFlipKartAssignment.tests.SortingTest@5f5b5ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SortingTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.RemoveItemTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" started-at="2022-02-09T15:54:49Z" name="initializeWebdriver" finished-at="2022-02-09T15:55:04Z" duration-ms="15149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" started-at="2022-02-09T15:55:04Z" name="openUrl" finished-at="2022-02-09T15:55:12Z" duration-ms="7075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="removeItemFunctionality()[pri:10, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" started-at="2022-02-09T15:55:12Z" name="removeItemFunctionality" finished-at="2022-02-09T15:55:24Z" duration-ms="12871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" started-at="2022-02-09T15:55:24Z" name="attachScreenshot" finished-at="2022-02-09T15:55:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemFunctionality status=SUCCESS method=RemoveItemTest.removeItemFunctionality()[pri:10, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8]" started-at="2022-02-09T15:55:24Z" name="closeBrowser" finished-at="2022-02-09T15:55:25Z" duration-ms="619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemFunctionality status=SUCCESS method=RemoveItemTest.removeItemFunctionality()[pri:10, instance:com.EndTestFlipKartAssignment.tests.RemoveItemTest@3bd55d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.RemoveItemTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.SaveForLaterTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" started-at="2022-02-09T15:54:37Z" name="initializeWebdriver" finished-at="2022-02-09T15:54:41Z" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" started-at="2022-02-09T15:54:41Z" name="openUrl" finished-at="2022-02-09T15:54:42Z" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="saveForLaterFunctionality()[pri:9, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" started-at="2022-02-09T15:54:42Z" name="saveForLaterFunctionality" finished-at="2022-02-09T15:54:49Z" duration-ms="7144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveForLaterFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" started-at="2022-02-09T15:54:49Z" name="attachScreenshot" finished-at="2022-02-09T15:54:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveForLaterFunctionality status=SUCCESS method=SaveForLaterTest.saveForLaterFunctionality()[pri:9, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4]" started-at="2022-02-09T15:54:49Z" name="closeBrowser" finished-at="2022-02-09T15:54:49Z" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveForLaterFunctionality status=SUCCESS method=SaveForLaterTest.saveForLaterFunctionality()[pri:9, instance:com.EndTestFlipKartAssignment.tests.SaveForLaterTest@63998bf4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SaveForLaterTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.RemoveFromWishlist">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" started-at="2022-02-09T15:55:39Z" name="initializeWebdriver" finished-at="2022-02-09T15:55:43Z" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" started-at="2022-02-09T15:55:43Z" name="openUrl" finished-at="2022-02-09T15:55:44Z" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="removeFromWishlistFunctionality()[pri:12, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" started-at="2022-02-09T15:55:44Z" name="removeFromWishlistFunctionality" finished-at="2022-02-09T15:55:51Z" duration-ms="6876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromWishlistFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" started-at="2022-02-09T15:55:51Z" name="attachScreenshot" finished-at="2022-02-09T15:55:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromWishlistFunctionality status=SUCCESS method=RemoveFromWishlist.removeFromWishlistFunctionality()[pri:12, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1]" started-at="2022-02-09T15:55:51Z" name="closeBrowser" finished-at="2022-02-09T15:55:52Z" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromWishlistFunctionality status=SUCCESS method=RemoveFromWishlist.removeFromWishlistFunctionality()[pri:12, instance:com.EndTestFlipKartAssignment.tests.RemoveFromWishlist@61942c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.RemoveFromWishlist -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddToWishlistTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" started-at="2022-02-09T15:55:25Z" name="initializeWebdriver" finished-at="2022-02-09T15:55:29Z" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" started-at="2022-02-09T15:55:29Z" name="openUrl" finished-at="2022-02-09T15:55:30Z" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="addToWishListFunctionality()[pri:11, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" started-at="2022-02-09T15:55:30Z" name="addToWishListFunctionality" finished-at="2022-02-09T15:55:39Z" duration-ms="8996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishListFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" started-at="2022-02-09T15:55:39Z" name="closeBrowser" finished-at="2022-02-09T15:55:39Z" duration-ms="622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToWishListFunctionality status=SUCCESS method=AddToWishlistTest.addToWishListFunctionality()[pri:11, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178]" started-at="2022-02-09T15:55:39Z" name="attachScreenshot" finished-at="2022-02-09T15:55:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToWishListFunctionality status=SUCCESS method=AddToWishlistTest.addToWishListFunctionality()[pri:11, instance:com.EndTestFlipKartAssignment.tests.AddToWishlistTest@7e0b9178] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddToWishlistTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.EditProfileTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" started-at="2022-02-09T15:56:10Z" name="initializeWebdriver" finished-at="2022-02-09T15:56:14Z" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" started-at="2022-02-09T15:56:14Z" name="openUrl" finished-at="2022-02-09T15:56:15Z" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="addressEditFunctionality()[pri:15, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" started-at="2022-02-09T15:56:15Z" name="addressEditFunctionality" finished-at="2022-02-09T15:56:30Z" duration-ms="14541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressEditFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" started-at="2022-02-09T15:56:30Z" name="closeBrowser" finished-at="2022-02-09T15:56:30Z" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addressEditFunctionality status=SUCCESS method=EditProfileTest.addressEditFunctionality()[pri:15, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44]" started-at="2022-02-09T15:56:30Z" name="attachScreenshot" finished-at="2022-02-09T15:56:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addressEditFunctionality status=SUCCESS method=EditProfileTest.addressEditFunctionality()[pri:15, instance:com.EndTestFlipKartAssignment.tests.EditProfileTest@62a8fd44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.EditProfileTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.LogOutTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" started-at="2022-02-09T15:52:02Z" name="initializeWebdriver" finished-at="2022-02-09T15:52:16Z" duration-ms="14840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" started-at="2022-02-09T15:52:16Z" name="openUrl" finished-at="2022-02-09T15:52:18Z" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="LogOutFunctionality()[pri:2, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" started-at="2022-02-09T15:52:18Z" name="LogOutFunctionality" finished-at="2022-02-09T15:52:24Z" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" started-at="2022-02-09T15:52:24Z" name="attachScreenshot" finished-at="2022-02-09T15:52:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOutFunctionality status=SUCCESS method=LogOutTest.LogOutFunctionality()[pri:2, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491]" started-at="2022-02-09T15:52:24Z" name="closeBrowser" finished-at="2022-02-09T15:52:24Z" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOutFunctionality status=SUCCESS method=LogOutTest.LogOutFunctionality()[pri:2, instance:com.EndTestFlipKartAssignment.tests.LogOutTest@5ffc5491] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.LogOutTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.CoinBalanceTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" started-at="2022-02-09T15:55:52Z" name="initializeWebdriver" finished-at="2022-02-09T15:55:55Z" duration-ms="3616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" started-at="2022-02-09T15:55:55Z" name="openUrl" finished-at="2022-02-09T15:55:56Z" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="BalanceCheckFunctionality()[pri:13, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" started-at="2022-02-09T15:55:56Z" name="BalanceCheckFunctionality" finished-at="2022-02-09T15:56:05Z" duration-ms="8136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BalanceCheckFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" started-at="2022-02-09T15:56:05Z" name="attachScreenshot" finished-at="2022-02-09T15:56:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BalanceCheckFunctionality status=SUCCESS method=CoinBalanceTest.BalanceCheckFunctionality()[pri:13, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f]" started-at="2022-02-09T15:56:05Z" name="closeBrowser" finished-at="2022-02-09T15:56:05Z" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BalanceCheckFunctionality status=SUCCESS method=CoinBalanceTest.BalanceCheckFunctionality()[pri:13, instance:com.EndTestFlipKartAssignment.tests.CoinBalanceTest@6f63c44f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.CoinBalanceTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.HomePageClickTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" started-at="2022-02-09T15:56:30Z" name="initializeWebdriver" finished-at="2022-02-09T15:56:34Z" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" started-at="2022-02-09T15:56:34Z" name="openUrl" finished-at="2022-02-09T15:56:35Z" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="HomePageClickFunctionality()[pri:16, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" started-at="2022-02-09T15:56:35Z" name="HomePageClickFunctionality" finished-at="2022-02-09T15:56:51Z" duration-ms="15942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageClickFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" started-at="2022-02-09T15:56:51Z" name="closeBrowser" finished-at="2022-02-09T15:56:51Z" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageClickFunctionality status=SUCCESS method=HomePageClickTest.HomePageClickFunctionality()[pri:16, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a]" started-at="2022-02-09T15:56:51Z" name="attachScreenshot" finished-at="2022-02-09T15:56:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageClickFunctionality status=SUCCESS method=HomePageClickTest.HomePageClickFunctionality()[pri:16, instance:com.EndTestFlipKartAssignment.tests.HomePageClickTest@2e6ba49a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.HomePageClickTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.SearchTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:36Z" name="initializeWebdriver" finished-at="2022-02-09T15:52:39Z" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:39Z" name="openUrl" finished-at="2022-02-09T15:52:40Z" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:40Z" name="searchExactKeywordFunctionality" finished-at="2022-02-09T15:52:49Z" duration-ms="8670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchExactKeywordFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:49Z" name="attachScreenshot" finished-at="2022-02-09T15:52:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchExactKeywordFunctionality status=SUCCESS method=SearchTest.searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:49Z" name="closeBrowser" finished-at="2022-02-09T15:52:50Z" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchExactKeywordFunctionality status=SUCCESS method=SearchTest.searchExactKeywordFunctionality()[pri:4, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:50Z" name="initializeWebdriver" finished-at="2022-02-09T15:52:53Z" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:53Z" name="openUrl" finished-at="2022-02-09T15:52:54Z" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:52:54Z" name="searchRandomKeywordFunctionality" finished-at="2022-02-09T15:53:04Z" duration-ms="9661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRandomKeywordFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:04Z" name="closeBrowser" finished-at="2022-02-09T15:53:04Z" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchRandomKeywordFunctionality status=SUCCESS method=SearchTest.searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:04Z" name="attachScreenshot" finished-at="2022-02-09T15:53:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchRandomKeywordFunctionality status=SUCCESS method=SearchTest.searchRandomKeywordFunctionality()[pri:5, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:04Z" name="initializeWebdriver" finished-at="2022-02-09T15:53:08Z" duration-ms="3439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:08Z" name="openUrl" finished-at="2022-02-09T15:53:09Z" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:09Z" name="applyFiltersSearchFunctionality" finished-at="2022-02-09T15:53:20Z" duration-ms="10941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFiltersSearchFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:20Z" name="attachScreenshot" finished-at="2022-02-09T15:53:20Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=applyFiltersSearchFunctionality status=SUCCESS method=SearchTest.applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:20Z" name="closeBrowser" finished-at="2022-02-09T15:53:20Z" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=applyFiltersSearchFunctionality status=SUCCESS method=SearchTest.applyFiltersSearchFunctionality()[pri:6, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:20Z" name="initializeWebdriver" finished-at="2022-02-09T15:53:24Z" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:24Z" name="openUrl" finished-at="2022-02-09T15:53:25Z" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:25Z" name="removeFiltersFunctionality" finished-at="2022-02-09T15:53:40Z" duration-ms="14292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFiltersFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:40Z" name="attachScreenshot" finished-at="2022-02-09T15:53:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFiltersFunctionality status=SUCCESS method=SearchTest.removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:40Z" name="closeBrowser" finished-at="2022-02-09T15:53:40Z" duration-ms="623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFiltersFunctionality status=SUCCESS method=SearchTest.removeFiltersFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:40Z" name="initializeWebdriver" finished-at="2022-02-09T15:53:44Z" duration-ms="3822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:44Z" name="openUrl" finished-at="2022-02-09T15:53:45Z" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="searchWithDropdownFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:53:45Z" name="searchWithDropdownFunctionality" finished-at="2022-02-09T15:54:14Z" duration-ms="28877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithDropdownFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:54:14Z" name="closeBrowser" finished-at="2022-02-09T15:54:15Z" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchWithDropdownFunctionality status=SUCCESS method=SearchTest.searchWithDropdownFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976]" started-at="2022-02-09T15:54:14Z" name="attachScreenshot" finished-at="2022-02-09T15:54:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchWithDropdownFunctionality status=SUCCESS method=SearchTest.searchWithDropdownFunctionality()[pri:7, instance:com.EndTestFlipKartAssignment.tests.SearchTest@3c443976] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.SearchTest -->
+      <class name="com.EndTestFlipKartAssignment.tests.AddToCartTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" started-at="2022-02-09T15:54:15Z" name="initializeWebdriver" finished-at="2022-02-09T15:54:18Z" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" started-at="2022-02-09T15:54:18Z" name="openUrl" finished-at="2022-02-09T15:54:19Z" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="addToCartFunctionality()[pri:8, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" started-at="2022-02-09T15:54:19Z" name="addToCartFunctionality" finished-at="2022-02-09T15:54:37Z" duration-ms="17139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" started-at="2022-02-09T15:54:37Z" name="attachScreenshot" finished-at="2022-02-09T15:54:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFunctionality status=SUCCESS method=AddToCartTest.addToCartFunctionality()[pri:8, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e]" started-at="2022-02-09T15:54:37Z" name="closeBrowser" finished-at="2022-02-09T15:54:37Z" duration-ms="633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFunctionality status=SUCCESS method=AddToCartTest.addToCartFunctionality()[pri:8, instance:com.EndTestFlipKartAssignment.tests.AddToCartTest@3e58d65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.EndTestFlipKartAssignment.tests.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

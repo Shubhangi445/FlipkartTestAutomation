@@ -1,0 +1,16 @@
+com\EndTestFlipKartAssignment\tests\OrderShowTest.class
+com\EndTestFlipKartAssignment\tests\AddressChangeCartTest.class
+com\EndTestFlipKartAssignment\tests\RemoveFromWishlist.class
+com\EndTestFlipKartAssignment\tests\SearchTest.class
+com\EndTestFlipKartAssignment\tests\CommonUtils.class
+com\EndTestFlipKartAssignment\tests\RemoveItemTest.class
+com\EndTestFlipKartAssignment\tests\AddToCartTest.class
+com\EndTestFlipKartAssignment\tests\BaseTest.class
+com\EndTestFlipKartAssignment\tests\SortingTest.class
+com\EndTestFlipKartAssignment\tests\EditProfileTest.class
+com\EndTestFlipKartAssignment\tests\AddToWishlistTest.class
+com\EndTestFlipKartAssignment\tests\CoinBalanceTest.class
+com\EndTestFlipKartAssignment\tests\LoginTest.class
+com\EndTestFlipKartAssignment\tests\SaveForLaterTest.class
+com\EndTestFlipKartAssignment\tests\HomePageClickTest.class
+com\EndTestFlipKartAssignment\tests\LogOutTest.class
