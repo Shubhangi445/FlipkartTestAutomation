@@ -57,7 +57,7 @@ java -jar jenkins.war --httpPort=8080
 
 ### Screenshots
 
-- Screenshots gets generated after failing of test cases
+- FailedScreenshots folder will only be generated if a test case failed
 
 ### Reports
 
