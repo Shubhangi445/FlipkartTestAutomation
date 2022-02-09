@@ -19,11 +19,10 @@ It is a Flipkart Automation Maven Project performed in JDK-11 using Selenium.
 - *@AfterSuite*   - to run before TestSuite
 
 
-## How to run
+## GitHub Link
 
 - Clone repo from the github link
-- gitHub link :- **https://github.com/ssssssssssssssss/Flipkart_Automation**
-- run RunAssignment.bat
+- gitHub link :- **https://github.com/Shubhangi445/FlipkartTestAutomation.git**
 
 ## Important Note
 
@@ -100,7 +99,6 @@ mvn clean test
 -	Integrate your test suite with Jenkins and GitHub for CI/CD part -  **done**
 -	Test Suite should be executable from command line using maven - **done**
 -	Use Logger to implement logging in your test cases - **done**
-
 
 ## AUTHOR
 -Shubhangi Sharma
